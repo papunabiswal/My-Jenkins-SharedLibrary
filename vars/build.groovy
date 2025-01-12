@@ -10,7 +10,7 @@ def java(){
     '''
 }
 
-def react(){
+/*def react(){
   echo "Building React Application"
   bat """
     cd /d F:
@@ -21,4 +21,4 @@ def react(){
     bat """
         powershell Compress-Archive -Path "F:\\${appName}\\build\\*" -DestinationPath "F:\\${appName}_${BUILD_NUMBER}.zip"
     """
-}
+}*/
